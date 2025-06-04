@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juventude Rural Conectada</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!--
+  As imagens apresentadas neste site foram geradas com o auxílio da inteligência artificial ChatGPT (OpenAI),
+  por meio de descrições em linguagem natural transformadas em conteúdo visual.
+  As imagens são ilustrações sintéticas e não representam fotografias reais.
+-->
+</head>
+<body>
+
+  <div class="background-overlay"></div>
+
+  <header>
+    <div class="logo">Juventude Rural Conectada</div>
+    <nav>
+      <a href="#cursos">Cursos</a>
+      <a href="#historias">Histórias</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Carrossel -->
+    <div class="carousel" aria-label="Carrossel de imagens sobre juventude rural">
+      <div class="slide active">
+        <img src="img/joao.png" alt="Jovem agricultor sorrindo no campo" />
+        <div class="caption">
+          <h2>João, 22 anos</h2>
+          <p>Agricultor orgânico inovador do interior de São Paulo.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/maria.png" alt="Jovem mulher trabalhando na plantação" />
+        <div class="caption">
+          <h2>Maria, 25 anos</h2>
+          <p>Engajada em projetos de agricultura sustentável.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/comunidade.png" alt="Grupo de jovens no campo" />
+        <div class="caption">
+          <h2>Comunidade Rural</h2>
+          <p>Jovens unidos para transformar a agricultura local.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/lucas.png" alt="Jovem agricultor com equipamento tecnológico" />
+        <div class="caption">
+          <h2>Lucas, 24 anos</h2>
+          <p>Usando tecnologia para melhorar a produção agrícola.</p>
+        </div>
+      </div>
+      <button class="prev" aria-label="Slide anterior">&#10094;</button>
+      <button class="next" aria-label="Próximo slide">&#10095;</button>
+    </div>
+
+    <!-- Seção Cursos -->
+    <section id="cursos">
+      <h2>Cursos para Jovens Agricultores</h2>
+      <div class="cards">
+        <div class="card" tabindex="0">
+          <h3>Agricultura Orgânica</h3>
+          <p>Aprenda técnicas sustentáveis para produzir alimentos saudáveis.</p>
+        </div>
+        <div class="card" tabindex="0">
+          <h3>Uso de Drones na Agricultura</h3>
+          <p>Tecnologias modernas para monitoramento de plantações.</p>
+        </div>
+        <div class="card" tabindex="0">
+          <h3>Gestão Rural</h3>
+          <p>Como administrar sua propriedade e aumentar a produtividade.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Histórias -->
+    <section id="historias">
+      <h2>Histórias Inspiradoras</h2>
+      <div class="historia">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de João" />
+        <p>João revolucionou sua fazenda com práticas sustentáveis e agora é referência na região.</p>
+      </div>
+      <div class="historia">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de Maria" />
+        <p>Maria trouxe a inovação tecnológica para a agricultura familiar, transformando sua comunidade.</p>
+      </div>
+      <div class="historia">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Foto de Lucas" />
+        <p>Lucas usa sensores e automação para otimizar a produção e reduzir desperdícios.</p>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+      <h2>Projetos em Andamento</h2>
+      <div class="cards">
+        <div class="card" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Projeto de irrigação sustentável" />
+          <h3>Irrigação Sustentável</h3>
+          <p>Projeto para otimizar o uso da água e aumentar a eficiência na irrigação.</p>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=600&q=80" alt="Tecnologia e inovação" />
+          <h3>Inovação Tecnológica</h3>
+          <p>Iniciativas para integrar tecnologia às práticas agrícolas tradicionais.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Juventude Rural Conectada. Todos os direitos reservados.
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
